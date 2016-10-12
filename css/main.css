@@ -34,13 +34,22 @@ header {
 
 }
 
-ol {
+ul {
   text-align: center;
   display: block;
 }
 
 li {
   display: inline-block;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #0074d9;
+  color: #fff;
 }
 
 @media only screen and (min-width: 38em) {
