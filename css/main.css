@@ -30,9 +30,21 @@ header {
 }
 
 .logo {
+  text-align: center;
 
+}
+
+ol {
+  text-align: center;
+  display: block;
 }
 
 li {
   display: inline-block;
+}
+
+@media only screen and (min-width: 38em) {
+  .logo {
+    text-align: left;
+  }
 }
